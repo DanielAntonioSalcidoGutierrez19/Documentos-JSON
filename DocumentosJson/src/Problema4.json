@@ -1,0 +1,42 @@
+{
+  "Factura": {
+    "BusinessContact": {
+      "BusinessName": "Nombre de la empresa",
+      "StreetAddress": "Dirección de la empresa",
+      "City": "Ciudad",
+      "Email": "correo@empresa.com",
+      "Website": "www.empresa.com"},
+    "BillTo": {
+      "ClientName": "Nombre del cliente",
+      "BillToAddress": {
+        "StreetAddress": "Dirección del cliente",
+        "City": "Ciudad",
+        "State": "Estado",
+        "ZipCode": "Código Postal"
+      }},
+    "ShipTo": {
+      "ClientName": "Nombre del cliente",
+      "ShipToAddress": {
+        "StreetAddress": "Dirección de envío del cliente",
+        "City": "Ciudad",
+        "State": "Estado",
+        "ZipCode": "Código Postal"
+      }},
+    "InvoiceDetails": {
+      "ClientName": "Nombre del cliente",
+      "InvoiceNumber": "12345",
+      "InvoiceDate": "mm/dd/yyyy",
+      "TermsOfPayment": "Terms Not 30"},
+    "DescriptionOfServices": {
+      "ProductService": [{
+          "ProductOrService": "Producto o servicio 1",
+          "Description": "Descripción del producto o servicio 1",
+          "QtyHr": "0",
+          "Rate": "0",
+          "Amount": "0" }, {
+          "ProductOrService": "Producto o servicio 2",
+          "Description": "Descripción del producto o servicio 2",
+          "QtyHr": "0",
+          "Rate": "0",
+          "Amount": "0"
+        }]}}}
